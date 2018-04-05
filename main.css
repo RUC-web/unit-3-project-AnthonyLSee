@@ -1,0 +1,73 @@
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color : #e67e22;
+    font-size: 90px;
+}
+
+h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.navBar img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navBar h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    transform: translateY(-50%);
+    font-size: 35px;
+
+}
+
+.titleBar{
+    width : 100%;
+    height : 25em;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.titleBar img{
+    width: 100vw;
+}
+.titleBar h1 {
+    left: 0;
+    position:absolute;
+    top: 30px;
+    width: 100%;
+    color : white;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: white;
+    font-size: 90px;
+}
+
+.centeredText{
+    text-align: center;
+}
+
+.footerNavBar{
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    height: 10vh;
+    overflow: auto;
+}
